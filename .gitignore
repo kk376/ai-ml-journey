@@ -1,3 +1,11 @@
 __pycache__/
 *.py[cod]
 *.class
+
+# Defensive Security: Secrets & Environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.secret
