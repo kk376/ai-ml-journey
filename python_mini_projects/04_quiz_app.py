@@ -134,4 +134,7 @@ def run_quiz():
 
 
 if __name__ == "__main__":
-    run_quiz()
+    try:
+        run_quiz()
+    except KeyboardInterrupt:
+        print("\n\n[Exited by user]")

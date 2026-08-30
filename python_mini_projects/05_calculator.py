@@ -109,4 +109,7 @@ def run_calculator():
 
 
 if __name__ == "__main__":
-    run_calculator()
+    try:
+        run_calculator()
+    except KeyboardInterrupt:
+        print("\n\n[Exited by user]")

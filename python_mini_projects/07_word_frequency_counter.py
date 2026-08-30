@@ -92,5 +92,8 @@ def run_word_counter():
 
 
 if __name__ == "__main__":
-    run_word_counter()
+    try:
+        run_word_counter()
+    except KeyboardInterrupt:
+        print("\n\n[Exited by user]")
 

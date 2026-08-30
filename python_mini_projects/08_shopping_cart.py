@@ -209,4 +209,7 @@ def run_shopping_cart():
 
 
 if __name__ == "__main__":
-    run_shopping_cart()
+    try:
+        run_shopping_cart()
+    except KeyboardInterrupt:
+        print("\n\n[Exited by user]")
