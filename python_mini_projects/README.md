@@ -1,6 +1,6 @@
 # Python Mini Projects
 
-Ten small projects built using core Python concepts, I've learnt so far in my Python journey.
+Twenty small projects built using core Python concepts, I've learnt so far in my Python journey.
 
 ## Projects
 
@@ -43,6 +43,46 @@ Log expenses with a description, amount, and category (picked from a tuple). Vie
 ### 10 — Number System Converter
 
 Converts between decimal, binary, octal, and hex.
+
+### 11: Todo List with File Storage
+
+A persistent task manager supporting priority levels (High, Medium, Low), task categorization, completion timestamps, and full JSON file persistence.
+
+### 12: Caesar Cipher Tool
+
+Classical cryptography utility supporting text encryption, decryption with known shift keys, brute-force cracking across all 25 possible shifts, and direct text file processing.
+
+### 13: Bank Account Simulator
+
+Object-Oriented banking simulation featuring BankAccount and BankManager classes, transaction history auditing, custom exceptions (InsufficientFundsError, InvalidAmountError), and persistent JSON storage.
+
+### 14: Inventory Management System
+
+Warehouse inventory tracker with category tuples, stock adjustments, sale transactions with receipt generation, low-stock threshold alerts, valuation summaries, and CSV export.
+
+### 15: Log File Analyzer
+
+Diagnostic tool that parses server log files using regular expressions, calculates severity level distributions, extracts unique IP addresses using Python sets, and isolates errors.
+
+### 16: Flashcard Study Tool
+
+Interactive study application utilizing Python set operations to track mastered cards versus cards needing review, with category filtering and persistent JSON card decks.
+
+### 17: Library Book Catalog
+
+Object-Oriented library catalog using Book and LibraryCatalog classes, supporting title and author searching, book checkouts, returns, and catalog persistence.
+
+### 18: Markdown to HTML Converter
+
+Line-by-line Markdown parser converting headings, bold, italic, code blocks, unordered lists, and blockquotes into clean, styled HTML5 documents.
+
+### 19: Health Metric Calculator
+
+Health metric suite computing BMI with WHO category ratings, Basal Metabolic Rate (BMR), Daily Maintenance Calories (TDEE), and ideal body weight, with historical CSV logging.
+
+### 20: Dungeon Adventure Game
+
+Object-Oriented text adventure game with interconnected Room, Player, and Item classes, featuring inventory management, locked doors, hazards, and item interactions.
 
 ## How to Run
 
