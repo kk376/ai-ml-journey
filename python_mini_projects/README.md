@@ -1,6 +1,6 @@
 # Python Mini Projects
 
-Twenty small projects built using core Python concepts, I've learnt so far in my Python journey.
+Thirty small projects built using core Python concepts, I've learnt so far in my Python journey.
 
 ## Projects
 
@@ -83,6 +83,46 @@ Health metric suite computing BMI with WHO category ratings, Basal Metabolic Rat
 ### 20: Dungeon Adventure Game
 
 Object-Oriented text adventure game with interconnected Room, Player, and Item classes, featuring inventory management, locked doors, hazards, and item interactions.
+
+### 21: Unit Converter
+
+Comprehensive multi-category measurement conversion tool supporting Length, Weight/Mass, Temperature (Celsius, Fahrenheit, Kelvin), Digital Storage (decimal and binary), and Speed with precision formatting.
+
+### 22: URL Shortener Simulation
+
+In-memory and JSON-backed URL shortening engine featuring Base62 encoding, custom alphanumeric alias registration, collision handling, and click counter analytics.
+
+### 23: Typing Speed Tester
+
+Terminal-based typing speed and accuracy evaluator measuring Gross WPM, Net WPM, Accuracy percentage, and CPM with randomized prompts and word-by-word diff error inspection.
+
+### 24: File Deduplication Checker
+
+High-performance duplicate file detection tool using multi-tier filtering (file size grouping, fast partial hashing, and streaming SHA-256 digests) to compute reclaimable disk storage.
+
+### 25: Currency Exchange Calculator
+
+Foreign exchange conversion engine with cross-rate calculation across major currencies, spread fee accounting, simulated multi-currency wallet management, and itemized receipt generation.
+
+### 26: Sudoku Validator and Solver
+
+9x9 Sudoku board validator and recursive backtracking constraint solver utilizing Minimum Remaining Values (MRV) candidate pruning for accelerated solving performance.
+
+### 27: Simple HTTP API Server
+
+RESTful JSON API server built purely with the Python standard library HTTPServer, supporting CRUD endpoints, query filtering, CORS headers, and status code governance.
+
+### 28: System Metrics Monitor
+
+Zero-dependency Linux procfs telemetrist directly parsing /proc/stat, /proc/meminfo, /proc/loadavg, and /proc/uptime with ASCII visual gauge bars.
+
+### 29: LRU Cache Implementation
+
+Classic O(1) Least Recently Used cache implemented from scratch using a Doubly Linked List and Hash Map, complete with capacity eviction policies and hit/miss telemetry.
+
+### 30: Vector Math Toolkit
+
+Pure Python 2D and 3D Euclidean vector algebra library with operator overloading for vector arithmetic, dot product, cross product, projections, and geometric angle computation.
 
 ## How to Run
 
